@@ -9,7 +9,7 @@ const Advertisement = (props) => {
         <div className="border border-2 p-3 d-flex">
             <div className="row">
                 <div className="col">
-                    <img src={props.image} alt=""/>
+                    <img src={props.image} alt={props.business}/>
                 </div>
             </div>
             <div className="row ms-4">
