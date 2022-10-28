@@ -1,18 +1,15 @@
-
-
 const Advertisement = (props) => {
-    console.log(props)
+    console.log(props);
 
     const style = {
         color: 'gray',
         opacity: .5
     };
-
     return (
-        <div className='border border-2 p-3 d-flex'>
+        <div className="border border-2 p-3 d-flex">
             <div className="row">
                 <div className="col">
-                    <img src={props.image} alt='' />
+                    <img src={props.image} alt=""/>
                 </div>
             </div>
             <div className="row ms-4">
@@ -28,7 +25,7 @@ const Advertisement = (props) => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default Advertisement;
