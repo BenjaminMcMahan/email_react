@@ -2,6 +2,14 @@ import "./App.css";
 import Header from "./components/Header";
 import Advertisement from "./components/Advertisement";
 import Coupon from "./components/Coupon";
+<<<<<<< Updated upstream
+=======
+import belt from "./images/belt.jpg";
+import goatmilk from "./images/goatmilk.jpg";
+import goldenface from "./images/goldenface.jpg";
+import iphone from "./images/iphone.jpg";
+import valvoline from "./images/valvoline.jpg";
+>>>>>>> Stashed changes
 
 function App() {
   return (
