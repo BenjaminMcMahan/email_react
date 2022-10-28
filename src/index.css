@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+            padding: 60px 15px 0;
+        }
+
+.thenPrice {
+    text-decoration: line-through;
+    font-size: 20px;
+    color: gray;
+}
+
+.nowPrice {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.fullWidth {
+    width: 100%;
+    height: 100%;
+}

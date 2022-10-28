@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Advertisement from "./components/Advertisement";
+import Coupon from "./components/Coupon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container">
+          <Header />
+          <Advertisement
+              image="./images/valvoline.jpg"
+              business='Valvoline'
+              service='Oil Change'
+              description='Stay-in-your-car oil change, with safety and maintenance checks, in about 15 mins - by certified techs without touching keys/oil reset light'
+              beforePrice='75.99'
+              afterPrice='56.99'
+          />
+          <Coupon />
+          <Advertisement
+              image='./images/belt.jpg'
+              business="Men's Belt"
+              service='Barbados Leather Mens...'
+              description='Color: Black and BrownIncluded Items: 2 beltsMaterial: Genuine Leather'
+              beforePrice='14'
+              afterPrice='2.49'
+          />
+          <Advertisement
+              image='./images/goatmilk.jpg'
+              business='Dionis Vanilla Bean Goat Milk...'
+              service='Skin Care'
+              description='Product Size: 48 oz, 8.5 ozSkin Type: All Skin Types'
+              beforePrice='20'
+              afterPrice='14'
+          />
+          <Advertisement
+              image='./images/goldenface.jpg'
+              business='Golden Face'
+              service='Botox Injections'
+              description='Botox injections remove the signs of aging such as the fine lines and wrinkles resulting in a revitalized, younger skin appearance'
+              beforePrice='220'
+              afterPrice='159'
+          />
+          <Advertisement
+              image='./images/iphone.jpg'
+              business='Apple iPhone 11/XR Fully Unlo...'
+              service='Electronics Condition: Refurbished (B Grade)'
+              description='Carrier: GSM & CDMA UnlockedElectronics Condition: Scratch and Dent'
+              beforePrice='529.95'
+              afterPrice='269.98'
+          />
+      </div>
+
   );
 }
 
