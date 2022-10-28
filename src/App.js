@@ -13,7 +13,7 @@ function App() {
       <div className="container">
           <Header />
           <Advertisement
-              image="./images/valvoline.jpg"
+              image={valvoline}
               business='Valvoline'
               service='Oil Change'
               description='Stay-in-your-car oil change, with safety and maintenance checks, in about 15 mins - by certified techs without touching keys/oil reset light'
@@ -22,7 +22,7 @@ function App() {
           />
           <Coupon />
           <Advertisement
-              image='./images/belt.jpg'
+              image={belt}
               business="Men's Belt"
               service='Barbados Leather Mens...'
               description='Color: Black and BrownIncluded Items: 2 beltsMaterial: Genuine Leather'
@@ -30,7 +30,7 @@ function App() {
               afterPrice='2.49'
           />
           <Advertisement
-              image='./images/goatmilk.jpg'
+              image={goatmilk}
               business='Dionis Vanilla Bean Goat Milk...'
               service='Skin Care'
               description='Product Size: 48 oz, 8.5 ozSkin Type: All Skin Types'
@@ -38,7 +38,7 @@ function App() {
               afterPrice='14'
           />
           <Advertisement
-              image='./images/goldenface.jpg'
+              image={goldenface}
               business='Golden Face'
               service='Botox Injections'
               description='Botox injections remove the signs of aging such as the fine lines and wrinkles resulting in a revitalized, younger skin appearance'
@@ -46,7 +46,7 @@ function App() {
               afterPrice='159'
           />
           <Advertisement
-              image='./images/iphone.jpg'
+              image={iphone}
               business='Apple iPhone 11/XR Fully Unlo...'
               service='Electronics Condition: Refurbished (B Grade)'
               description='Carrier: GSM & CDMA UnlockedElectronics Condition: Scratch and Dent'
