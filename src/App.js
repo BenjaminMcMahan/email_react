@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Advertisement from "./components/Advertisement";
 import Coupon from "./components/Coupon";
 import belt from "./images/belt.jpg";
-import coupon from "./images/coupon.png";
 import goatmilk from "./images/goatmilk.jpg";
 import goldenface from "./images/goldenface.jpg";
 import iphone from "./images/iphone.jpg";
@@ -55,7 +54,6 @@ function App() {
                 afterPrice="269.98"
             />
         </div>
-
     );
 }
 
